@@ -89,6 +89,10 @@ class IndexPage extends React.Component {
     }
   }
 
+  popEmail() {
+    alert('test')
+  }
+
   render() {
     return (
       <Layout location={this.props.location}>

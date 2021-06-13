@@ -84,7 +84,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -95,7 +95,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="Haven't wired up this form yet. Email me at adamcbowman@gmail.com"></textarea>
             </div>
             <ul className="actions">
               <li>
@@ -128,6 +128,15 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/adamcbowman1983/"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+
           </ul>
           {close}
         </article>

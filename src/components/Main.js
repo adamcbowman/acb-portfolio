@@ -28,15 +28,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">ACB Consulting</h2>
+          <p>
+          As a freelance developer, I have experience building and customizing web front ends using various technologies including Shopify, WordPress, React, Angular, and more. 
+          </p>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Welcome to my home on the internet. Check out some of my projects on <a href="https://github.com/adamcbowman">GitHub</a>.
-          </p>
-          <p>
-            I'm always eager and willing to solve new problems, and learn new tech.
+            I'm always eager to solve new problems, and learn new tech!
           </p>
           {close}
         </article>
@@ -49,13 +49,16 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <p>
+            By day I'm an IT Consultant with focus on configuration of Supply Chain Risk tooling. I have previously worked on support and development projects in Oil and Gas, and retail. 
+            I have extensive experience maintaining and supporting highly integrated Enterprise applications and systems. 
+          </p>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-           I'm a self taught Dev currently working for a large tech company. I have experience supporting custom built enterprise
-           applications, configuring SaaS tools, deploying web sites and content via CMS tools, and much more. 
-          </p>
+          My side hustle is as a freelance web developer with a specialization in Shopify theme customizations for small business clients. 
+         </p>
           {close}
         </article>
 
@@ -66,13 +69,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <h2 className="major">About Me</h2>
           <p>
             When I'm not working or learning new technologies, I spend my time on various outdoor pursuits including skiing, mountain biking, and saililng. 
           </p>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+
           {close}
         </article>
 
@@ -84,7 +88,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post">
+          <form action="https://getform.io/f/b161bc87-f720-4a9b-8633-7feaab84cffe" method="post" >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -95,11 +99,11 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" placeholder="Haven't wired up this form yet. Email me at adamcbowman@gmail.com"></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="You can also email me directly at adamcbowman@gmail.com."></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input disabled="true" type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />

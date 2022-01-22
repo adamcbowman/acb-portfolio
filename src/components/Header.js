@@ -21,10 +21,10 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            About
           </button>
         </li>
-        <li>
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('work')
@@ -32,14 +32,14 @@ const Header = props => (
           >
             Work
           </button>
-        </li>
+        </li> */}
         <li>
           <button
             onClick={() => {
               props.onOpenArticle('about')
             }}
           >
-            About
+            Interests
           </button>
         </li>
         <li>

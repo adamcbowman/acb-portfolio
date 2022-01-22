@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import selfie from '../images/selfie.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,15 +30,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">ACB Consulting</h2>
-          <p>
-          As a freelance developer, I have experience building and customizing web front ends using various technologies including Shopify, WordPress, React, Angular, and more. 
-          </p>
+          <p>adambowman.tech</p>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={selfie} alt="" />
           </span>
+          <h1>Adam Bowman</h1>
+          <h4>Developer</h4>
+          
           <p>
-            I'm always eager to solve new problems, and learn new tech!
+            I develop systems that automate and simplify business and life for
+            small businesses and their clients. I am passionate about
+            implementing solutions and solving problems. I am proficient in
+            Javascript, React, Node and Shopify development.
           </p>
+
           {close}
         </article>
 
@@ -50,15 +56,19 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <p>
-            By day I'm an IT Consultant with focus on configuration of Supply Chain Risk tooling. I have previously worked on support and development projects in Oil and Gas, and retail. 
-            I have extensive experience maintaining and supporting highly integrated Enterprise applications and systems. 
+            By day I'm an IT Consultant with focus on configuration of Supply
+            Chain Risk tooling. I have previously worked on support and
+            development projects in Oil and Gas, and retail. I have extensive
+            experience maintaining and supporting highly integrated Enterprise
+            applications and systems.
           </p>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-          My side hustle is as a freelance web developer with a specialization in Shopify theme customizations for small business clients. 
-         </p>
+            My side hustle is as a freelance web developer with a specialization
+            in Shopify theme customizations for small business clients.
+          </p>
           {close}
         </article>
 
@@ -70,11 +80,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          <p>
-            When I'm not working or learning new technologies, I spend my time on various outdoor pursuits including skiing, mountain biking, and saililng. 
-          </p>
+          <ul>
+            <li>Skier</li>
+            <li>Sailor</li>
+            <li>Cyclist</li>
+            <li>Coffee snob</li>
+            <li>Scotch lover</li>
+            <li>Craft beer afficianado</li>
+            <li>Peanut butter addict</li>
+          </ul>
+
           <span className="image main">
             <img src={pic03} alt="" />
+            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
 
           {close}
@@ -88,7 +107,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form action="https://getform.io/f/b161bc87-f720-4a9b-8633-7feaab84cffe" method="post" >
+          <form
+            action="https://getform.io/f/b161bc87-f720-4a9b-8633-7feaab84cffe"
+            method="post"
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -99,7 +121,12 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" placeholder="You can also email me directly at adamcbowman@gmail.com."></textarea>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                placeholder="You can also email me directly at adamcbowman@gmail.com."
+              ></textarea>
             </div>
             <ul className="actions">
               <li>
@@ -120,7 +147,10 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/adamcbowman" className="icon fa-facebook">
+              <a
+                href="https://www.facebook.com/adamcbowman"
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
@@ -140,7 +170,6 @@ class Main extends React.Component {
                 <span className="label">LinkedIn</span>
               </a>
             </li>
-
           </ul>
           {close}
         </article>

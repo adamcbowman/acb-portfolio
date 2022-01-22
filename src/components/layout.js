@@ -42,7 +42,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Adam Bowman' },
-              { name: 'keywords', content: 'Developer, JavaScript, Angular' },
+              { name: 'keywords', content: 'Developer, JavaScript, Shopify, React' },
             ]}
           >
             <html lang="en" />
